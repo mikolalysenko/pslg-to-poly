@@ -1,0 +1,38 @@
+{
+  "name": "pslg-to-poly",
+  "version": "1.0.0",
+  "description": "Convert a planar straight line graph into a polygon",
+  "main": "pslg-to-poly.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "cdt2d": "^1.0.0",
+    "simplicial-complex-boundary": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/pslg-to-poly.git"
+  },
+  "keywords": [
+    "pslg",
+    "planar",
+    "straight",
+    "line",
+    "graph",
+    "polygon",
+    "conversion",
+    "geometry"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/pslg-to-poly/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/pslg-to-poly"
+}
